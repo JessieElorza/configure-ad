@@ -77,7 +77,7 @@ During the setup process, I chose the previously created resource group “Activ
 
 <h2></h2>
 
-**3. Create Virtual Domain Controller/Client Virtual Machines**
+**3. Create both Domain Controller/Client Virtual Machines**
 ---
 ***CREATE DOMAIN CONTROLLER VM***
 
@@ -85,20 +85,27 @@ In the Azure portal, I initiated Virtual Machine creation by searching for “Vi
 <p>
 <img width="850" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e587a7c9-e466-4c61-8ac6-edeef03aa63a" />
 </p>
+
+<h2></h2>
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a339728c-afc5-45fe-93b0-8097ab3dd9e7" />
 </p>
 <p>
 Choose the **Active-Directory-Lab** resource group, name the VM "dc-1". Set the region to **(US) East US 2** and Select **Availability Zone 1**.
 </p>
-<br>
+
+<h2></h2>
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e3b940ad-c753-42aa-9d22-5d7338c45df4" />
 </p>
 <p>
 Set the image to **Windows Server 2025 Datacenter: Azure Edition (x64 Gen2)**, and use the **Standard D2s_v3 (2 vCPUs, 8 GiB memory)** size.
 </p>
-<br>
+
+<h2></h2>
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e3b940ad-c753-42aa-9d22-5d7338c45df4" />
 </p>
@@ -110,23 +117,41 @@ configure the username and password under the Admin Account section in dc-1's vi
 <p>
   -Password: Cyberlab123!
 </p>
-<br>
+
+<h2></h2>
+
 <p>
 <img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
 </p>
 <p>
-Ensure the licensing boxes and agreement boxes are checked and enabled. Click next until you reach the Networking section
+Ensure the licensing boxes and agreement boxes are checked and enabled. Click next and navigate to the **Networking** tab for the virtual network
 </p>
+
+<h2></h2>
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/c0bd08cc-9dd8-464d-8653-1cec7c009d86" />
 </p>
 <p>
-During Virtual machine creation, navigate to the **Networking** tab for the virtual network. I selected the previously created VNet "Active-Directory-VNet", assigned a public IP address, and selected 'default' for Subnet. Once the networking settings were configured, select "Review + Create," then "Create".
+In the **Networking** tab I selected the previously created VNet "Active-Directory-VNet", assigned a public IP address, and selected 'default' for Subnet. Once the networking settings were configured, select "Review + Create".
 </p>
+
+<h2></h2>
+
 <p>
 <img width="400" height="400" alt="Screenshot"src="https://github.com/user-attachments/assets/684bd6d0-3bbe-48d9-a585-8af5d780be73" />
 </p>
 <p>
 then "Create" and Deploy the Virtual Machine.
+</p>
+<br />
+
+<h2></h2>
+
+<p>
+
+</p>
+<p>
+
 </p>
 <br />
