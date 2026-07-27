@@ -121,10 +121,10 @@ configure the username and password under the Admin Account section in dc-1's vi
 <h2></h2>
 
 <p>
-<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
+<img width="500" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
 </p>
 <p>
-Ensure the licensing boxes and agreement boxes are checked and enabled. Click next and navigate to the **Networking** tab for the virtual network
+Ensure the licensing boxes and agreement boxes are checked and enabled at the bottom of the basics page. Click next and navigate to the **Networking** tab for the virtual network
 </p>
 
 <h2></h2>
@@ -142,7 +142,7 @@ In the **Networking** tab I selected the previously created VNet "Active-Directo
 <img width="400" height="400" alt="Screenshot"src="https://github.com/user-attachments/assets/684bd6d0-3bbe-48d9-a585-8af5d780be73" />
 </p>
 <p>
-then "Create" and Deploy the Virtual Machine.
+then "Create" and Deploy the Domain Controller(dc-1) Virtual Machine.
 </p>
 <br />
 
