@@ -23,6 +23,8 @@ This Demonstration outlines the Configuration of Azure Virtual Machines for prep
 - Client-1 = Domain-joined machine
 - Both connected via VNet (same subnet)
 
+<h2>Deployment and Configuration Steps</h2>
+
 **1. Setup Domain Controller VM in Azure**
 ---
 ***CREATE RESOURCE GROUP.***
