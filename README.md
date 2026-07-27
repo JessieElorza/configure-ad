@@ -61,6 +61,11 @@ From there, Click create new resource group, assign the name “Active-Directory
 <p>
 In the Azure Portal, I searched for “Virtual Networks,” selected the service, and clicked “+ Create.”
 </p>
+
+<br>
+<br>
+<br>
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/c37fd05e-044c-4c47-87aa-eec27b16871f" />
 </p>
