@@ -35,7 +35,7 @@ I began by signing in to the [Azure](https://portal.azure.com/) portal
 <img width="800" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/40d0e594-0739-4183-a468-f8a8fec29f83" />
 </p>
 
-**2. Setup Domain Controller VM in Azure**
+**2. Setup resources for Virtual machines in Azure**
 ---
 ***CREATE RESOURCE GROUP.***
 
@@ -52,6 +52,8 @@ From there, Click create new resource group, assign the name “Active-Directory
 <br />
 
 <h2></h2>
+
+***CREATE VIRTUAL NETWORK.***
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
