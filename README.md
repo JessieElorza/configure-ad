@@ -39,8 +39,7 @@ I began by signing in to the [Azure](https://portal.azure.com/) portal
 ---
 ***CREATE RESOURCE GROUP.***
 
-Create a resource group to centrally organize and manage all Azure resources for the Active Directory lab. Search for “Resource Groups,” and select the service. From there, Initiate the creation process, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
-
+Create a resource group to centrally organize and manage all Azure resources for the Active Directory lab. Search for “Resource Groups,” and select the service.
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a08c87b2-d2f1-4ba6-b152-7f5b3305eabf" />
 </p>
@@ -51,6 +50,8 @@ Create a resource group to centrally organize and manage all Azure resources for
 From there, Click create new resource group, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
 </p>
 <br />
+
+<h2></h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
