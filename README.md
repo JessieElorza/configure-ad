@@ -78,10 +78,14 @@ During the setup process, I chose the previously created resource group “Activ
 
 ***CREATE DOMAIN CONTROLLER VM***
 
+In the Azure portal, I initiated Virtual Machine creation by searching for “Virtual Machine” in the search bar and selecting "+ Create".
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/1cebe42d-f48b-40cd-8f0d-e6e57db0115e" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a339728c-afc5-45fe-93b0-8097ab3dd9e7" />
+</p>
+<p>
+choose the **Active-Directory-Lab** resource group, named the VM "DC-1", and configured the username and password under the Admin Account section. I set the region to **(US) East US 2** with **Availability Zone 3**, selected the **Windows Server 2022 Datacenter: Azure Edition (x64 Gen2)** image, and used the **Standard D2s_v3 (2 vCPUs, 8 GiB RAM)** size.
 </p>
 <br />
