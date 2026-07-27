@@ -25,8 +25,6 @@ This Demonstration outlines the Configuration of Azure Virtual Machines for prep
 
 **1. Setup Domain Controller VM in Azure**
 ---
-<h2>Deployment and Configuration Steps</h2>
-
 ***CREATE RESOURCE GROUP.***
 
 Created a resource group to centrally organize and manage all Azure resources for the Active Directory lab. I began by signing in to the [Azure](https://portal.azure.com/) portal, searching for “Resource Groups,” and selecting the service. From there, I initiated the creation process, assigned the name “rg-active-directory-lab,” and completed the setup by selecting “Review + Create,” followed by “Create.”
