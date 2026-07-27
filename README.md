@@ -161,7 +161,7 @@ then "Create" and Deploy the Domain Controller(dc-1) Virtual Machine.
 
 In the Azure portal, search for “Virtual Machine” in the search bar and select + Create the same way we did for the first virtual machine
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/bdb1933d-d24c-462d-87bd-1646f6557135" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/bdb1933d-d24c-462d-87bd-1646f6557135" />
 </p>
 <p>
 Choose the Active-Directory-Lab resource group, named the VM client-1.
@@ -170,7 +170,7 @@ Choose the Active-Directory-Lab resource group, named the VM client-1.
 <h2></h2>
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/33c3a051-de10-431f-9611-7ca290f19c89" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/33c3a051-de10-431f-9611-7ca290f19c89" />
 </p>
 <p>
 I set the region to (US) East US 2 with Availability Zone 1, selected the Windows 11 Pro, version 25H2 - x64 Gen2 image with x64 architecture, and used the Standard D2s_v3 (2 vCPUs, 8 GiB RAM) size.
@@ -179,7 +179,7 @@ I set the region to (US) East US 2 with Availability Zone 1, selected the Window
 <h2></h2>
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/83786581-6c3b-401d-a12d-c0ebb4cf5ab1" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/83786581-6c3b-401d-a12d-c0ebb4cf5ab1" />
 </p>
 <p>
 Configured the administrator username and password under the Admin Account section.
@@ -198,7 +198,7 @@ And of course, don't forget to click and mark yes to the licensing check box.
 <h2></h2>
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
 </p>
 <p>
 In the Networking tab, select the previously created virtual network (Active-Directory-Lab) and keep the subnet as default. After completing the configuration, click, Review + Create, then select Create to deploy the Virtual Machine just like the first VM.
