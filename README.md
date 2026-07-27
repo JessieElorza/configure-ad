@@ -164,9 +164,7 @@ In the Azure portal, search for “Virtual Machine” in the search bar and sele
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/bdb1933d-d24c-462d-87bd-1646f6557135" />
 </p>
 <p>
-Choose the Active-Directory-Lab resource group, named the VM client-1. 
-
-In the Networking tab, I selected the previously created virtual network (rg-active-directory-lab) and kept the subnet as default. After completing the configuration, I clicked Review + Create, then selected Create to deploy the virtual machine.
+Choose the Active-Directory-Lab resource group, named the VM client-1.
 </p>
 
 <h2></h2>
@@ -200,15 +198,17 @@ And of course, don't forget to click and mark yes to the licensing check box.
 <h2></h2>
 
 <p>
-<img width="698" height="583" alt="Screenshot 2026-07-24 072121" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
 </p>
+<p>
+In the Networking tab, select the previously created virtual network (Active-Directory-Lab) and keep the subnet as default. After completing the configuration, click, Review + Create, then select Create to deploy the Virtual Machine just like the first VM.
+</p>
+
+<h2></h2>
+
 <p>
 
 </p>
 <p>
-Configured the administrator username and password under the Admin Account section.
-<p>
-</p>
-<p>
 
-<p>
+</p>
