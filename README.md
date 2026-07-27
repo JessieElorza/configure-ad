@@ -35,7 +35,8 @@ Created a resource group to centrally organize and manage all Azure resources fo
 <img width="1119" height="709" alt="Screenshot" src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" />
 </p>
 <p>
-<img width="1119" height="709" alt="Screenshot" src="https://github.com/user-attachments/assets/015815bc-55a2-4720-a7b1-03aa9906072e" />
+<img width="1119" height="709" alt="Screenshot"  src="https://github.com/user-attachments/assets/1ac42d07-c979-47f0-94e1-fdc0ae8cc351" />
+ />
 
 </p>
 <br />
