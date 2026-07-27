@@ -303,10 +303,10 @@ The firewall is temporarily disabled to allow connectivity testing between virtu
 
 <h2></h2>
 
-***Client-1 Virtual Machine Configuration***
+***client-1 Virtual Machine Configuration***
 
 <p>
-<img width="800" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/40810a94-3162-44fd-b4ea-2ae2857bf43a" />
+<img width="950" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/40810a94-3162-44fd-b4ea-2ae2857bf43a" />
 </p>
 <p>
 Navigate back to the **Virtual Machines** list, select the **dc-1** VM, and open **Network Settings** from the left-hand panel. From there, locate and copy the private IP address (10.0.0.4) 
@@ -315,7 +315,7 @@ Navigate back to the **Virtual Machines** list, select the **dc-1** VM, and open
 <h2></h2>
 
 <p>
-<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/ae6af5a8-ee69-4419-9a76-a6aad2eb2251" />
+<img width="550" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/ae6af5a8-ee69-4419-9a76-a6aad2eb2251" />
 </p>
 <p>
 Return to the Virtual Machines list and select **client-1**. Navigate to **Network > Network Settings**, then select the **Network Interface/IP configuration**
@@ -324,7 +324,7 @@ Return to the Virtual Machines list and select **client-1**. Navigate to **Netwo
 <h2></h2>
 
 <p>
-<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/cd0fede1-93e2-4d09-b2f8-de5fdd182398" />
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/cd0fede1-93e2-4d09-b2f8-de5fdd182398" />
 </p>
 <p>
 In the network interface settings, open **DNS servers**, switch the option to **Custom**, and enter the **dc-1 private IP address**. Click **Save** to apply the configuration.
