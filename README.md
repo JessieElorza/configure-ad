@@ -32,9 +32,8 @@ This Demonstration outlines the implementation of on-premises Active Directory w
 Created a resource group to centrally organize and manage all Azure resources for the Active Directory lab. I began by signing in to the [Azure](https://portal.azure.com/) portal, searching for “Resource Groups,” and selecting the service. From there, I initiated the creation process, assigned the name “rg-active-directory-lab,” and completed the setup by selecting “Review + Create,” followed by “Create.”
 
 <p>
-<img src="https://github.com/user-attachments/assets/c1718437-5d89-4c85-8785-07eb181587b3" width="1119" height="709" alt="Screenshot/>
+<img src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" width="1119" height="709" alt="Screenshot/>
 </p>
-Created a resource group to centrally organize and manage all Azure resources for the Active Directory lab. I began by signing in to the [Azure](https://portal.azure.com/) portal, searching for “Resource Groups,” and selecting the service. From there, I initiated the creation process, assigned the name “rg-active-directory-lab,” and completed the setup by selecting “Review + Create,” followed by “Create.”
 <p>
 
 </p>
