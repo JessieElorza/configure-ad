@@ -242,7 +242,7 @@ Configuring the Domain Controller with a static private IP ensures consistent an
 <h2></h2>
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/faccf857-b194-4bed-9da0-96c1ac70802c" />
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/0b32630e-a8e7-453f-8336-a83fad01717e" />
 </p>
 <p>
 Afterward, return to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
