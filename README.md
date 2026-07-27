@@ -74,6 +74,10 @@ During the setup process, I chose the previously created resource group “Activ
 </p>
 <br />
 
+<h2></h2>
+
+***CREATE DOMAIN CONTROLLER VM***
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
