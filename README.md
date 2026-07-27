@@ -17,7 +17,7 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2025 (x64 Gen2)
-- Windows 11 Virtual Machine(25H2)
+- Windows 11 pro Virtual Machine(25H2)(x64 Gen2)(2 vCPUs)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -157,10 +157,58 @@ then "Create" and Deploy the Domain Controller(dc-1) Virtual Machine.
 
 <h2></h2>
 
-<p>
+***CREATE CLIENT-1 VM***
 
+In the Azure portal, search for “Virtual Machine” in the search bar and select + Create the same way we did for the first virtual machine
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/bdb1933d-d24c-462d-87bd-1646f6557135" />
 </p>
 <p>
+Choose the Active-Directory-Lab resource group, named the VM client-1. 
 
+In the Networking tab, I selected the previously created virtual network (rg-active-directory-lab) and kept the subnet as default. After completing the configuration, I clicked Review + Create, then selected Create to deploy the virtual machine.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/33c3a051-de10-431f-9611-7ca290f19c89" />
+</p>
+<p>
+I set the region to (US) East US 2 with Availability Zone 1, selected the Windows 11 Pro, version 25H2 - x64 Gen2 image with x64 architecture, and used the Standard D2s_v3 (2 vCPUs, 8 GiB RAM) size.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/83786581-6c3b-401d-a12d-c0ebb4cf5ab1" />
+</p>
+<p>
+Configured the administrator username and password under the Admin Account section.
+</p>
+<p>
+  -Username: labuser
+</p>
+<p>
+  -Password: Cyberlab123!
+</p>
+<p>
+And of course, don't forget to click and mark yes to the licensing check box.
 </p>
 <br />
+
+<h2></h2>
+
+<p>
+<img width="698" height="583" alt="Screenshot 2026-07-24 072121" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
+</p>
+<p>
+
+</p>
+<p>
+Configured the administrator username and password under the Admin Account section.
+<p>
+</p>
+<p>
+
+<p>
