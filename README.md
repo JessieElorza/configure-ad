@@ -26,7 +26,7 @@ This Demonstration outlines the Configuration of Azure Virtual Machines for prep
 <h2>Deployment and Configuration Steps</h2>
 
 **1. Navigate to Azure Portal**
-
+---
 I began by signing in to the [Azure](https://portal.azure.com/) portal
 
 <p>
