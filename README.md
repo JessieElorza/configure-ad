@@ -121,7 +121,7 @@ configure the username and password under the Admin Account section in dc-1's vi
 <h2></h2>
 
 <p>
-<img width="500" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
+<img width="400" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
 </p>
 <p>
 Ensure the licensing boxes and agreement boxes are checked and enabled at the bottom of the basics page. Click next and navigate to the **Networking** tab for the virtual network
