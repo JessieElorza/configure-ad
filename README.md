@@ -222,7 +222,7 @@ Both Virtual Machines are now Created and deployed! After creating the dc-1/clie
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/0db8fd96-3cd4-42c1-98f4-f5fa4dcc81dd" />
 </p>
 <p>
-<img width="400" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/2361b7eb-04d8-4eec-83f5-1d9b0574a5ba" />
+<img width="500" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/2361b7eb-04d8-4eec-83f5-1d9b0574a5ba" />
 </p>
 <p>
 From the left-hand menu, select **Networking > Network Settings**, then click on the VM’s **Network Interface** listed under **Essentials**.
