@@ -59,7 +59,13 @@ From there, Click create new resource group, assign the name “Active-Directory
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/402ce1cc-bc73-41ec-853b-38147279764c" />
 </p>
 <p>
-
+In the Azure Portal, I searched for “Virtual Networks,” selected the service, and clicked “+ Create.”
+</p>
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/c37fd05e-044c-4c47-87aa-eec27b16871f" />
+</p>
+<p>
+During the setup process, I chose the previously created resource group “Active-Directory-Lab” and assigned the name “Active-Directory-VNet” to the virtual network. I then selected my region which is (US) East US 2 (Select for your specific region!). This virtual network provides a secure environment that will allow Our Azure virtual machines to communicate with one another on the same network later on.
 </p>
 <br />
 
