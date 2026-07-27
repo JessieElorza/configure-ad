@@ -202,7 +202,7 @@ And of course, don't forget to click and mark yes to the licensing check box.
 <img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/858078aa-9b2d-44e6-975a-2ed483d951de" />
 </p>
 <p>
-In the Networking tab, select the previously created virtual network (Active-Directory-VNet) and keep the subnet as default. After completing the configuration, click, Review + Create, then select Create to deploy the Virtual Machine just like the first VM.
+In the Networking tab, select the previously created virtual network (Active-Directory-VNet) and keep the subnet as default and keep everything else as is. After completing the configuration, click, Review + Create, then, select ***Create*** to deploy the Virtual Machine just like the first VM.
 </p>
 
 <h2></h2>
