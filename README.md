@@ -80,12 +80,22 @@ During the setup process, I chose the previously created resource group “Activ
 
 In the Azure portal, I initiated Virtual Machine creation by searching for “Virtual Machine” in the search bar and selecting "+ Create".
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/1cebe42d-f48b-40cd-8f0d-e6e57db0115e" />
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e587a7c9-e466-4c61-8ac6-edeef03aa63a" />
 </p>
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a339728c-afc5-45fe-93b0-8097ab3dd9e7" />
 </p>
 <p>
-choose the **Active-Directory-Lab** resource group, named the VM "DC-1", and configured the username and password under the Admin Account section. I set the region to **(US) East US 2** with **Availability Zone 3**, selected the **Windows Server 2022 Datacenter: Azure Edition (x64 Gen2)** image, and used the **Standard D2s_v3 (2 vCPUs, 8 GiB RAM)** size.
+Choose the **Active-Directory-Lab** resource group, name the VM "dc-1". Set the region to **(US) East US 2** and Select **Availability Zone 1**.
+</p>
+<br>
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e3b940ad-c753-42aa-9d22-5d7338c45df4" />
+</p>
+<p>
+Set the image to **Windows Server 2025 Datacenter: Azure Edition (x64 Gen2)**, and use the **Standard D2s_v3 (2 vCPUs, 8 GiB memory)** size.
+</p>
+<p>
+configure the username and password under the Admin Account section.
 </p>
 <br />
