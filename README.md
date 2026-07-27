@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Virtual Machines Deployed in the Cloud (Azure)</h1>
-This Demonstration outlines the Configuration of Azure Virtual Machines for preparation of on-premises Active Directory.<br />
+This Demonstration outlines the Configuration of Azure Virtual Machines in preparation for Active Directory configuration.<br />
 
 <h2>Environments and Technologies Used</h2>
 
