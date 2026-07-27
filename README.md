@@ -208,8 +208,35 @@ In the Networking tab, select the previously created virtual network (Active-Dir
 <h2></h2>
 
 <p>
-
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/c98719b7-00fd-488d-80ea-31fac652f99b" />
 </p>
+<p>
+Both Virtual Machines are now Created and deployed! After creating the dc-1/client-1 virtual machines, access them by searching “Virtual Machines” in the Azure Portal and navigating to **Virtual Machines > dc-1** or client-1**.
+</p>
+
+<h2></h2>
+
+***Domain Controller VM IP Configuration***
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/0db8fd96-3cd4-42c1-98f4-f5fa4dcc81dd" />
+</p>
+<p>
+<img width="400" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/2361b7eb-04d8-4eec-83f5-1d9b0574a5ba" />
+</p>
+<p>
+From the left-hand menu, select **Networking > Network Settings**, then click on the VM’s **Network Interface** listed under **Essentials**.
+</p>
+
+<h2></h2>
+
 <p>
 
 </p>
+<p>
+Within the network interface settings, I navigated to Settings > IP Configurations > ipconfig1, where I changed the Private IP allocation from dynamic to Static, and saved the configuration. Afterward, I returned to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
+
+Configuring the Domain Controller with a static private IP ensures consistent and reliable network communication. This is critical because client machines depend on the Domain Controller for DNS resolution and authentication services, which require a fixed IP address to function properly.
+</p>
+
+<h2></h2>
