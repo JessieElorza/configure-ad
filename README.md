@@ -253,13 +253,13 @@ Return to the DC-1 VM overview page to locate and copy the Domain Controller’s
 <h2></h2>
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/b2319ff1-b926-4cbd-b75b-dac0954f8964" />
+<img width="700" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/b2319ff1-b926-4cbd-b75b-dac0954f8964" />
 </p>
 <p>
-<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/80b306b4-8c81-4465-ac74-fb4d13b0265f" />
+<img width="300" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/80b306b4-8c81-4465-ac74-fb4d13b0265f" />
 </p>
 <p>
-<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/beec6271-1c3f-476e-8831-04adf63d25bd" />
+<img width="300" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/beec6271-1c3f-476e-8831-04adf63d25bd" />
 <p>
 On my local computer, I used Remote Desktop to connect to DC-1 VM using its public IP address (20.94.42.226) and entered the username and password that were created when creating the Virtual Machine.  
 </p>
