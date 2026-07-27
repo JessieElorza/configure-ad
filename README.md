@@ -42,10 +42,10 @@ I began by signing in to the [Azure](https://portal.azure.com/) portal
 Create a resource group to centrally organize and manage all Azure resources for the Active Directory lab. Search for “Resource Groups,” and select the service. From there, Initiate the creation process, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" />
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a08c87b2-d2f1-4ba6-b152-7f5b3305eabf" />
 </p>
 <p>
-<img width="400" height="400" alt="Screenshot"  src="https://github.com/user-attachments/assets/c87fa505-6cf5-413e-a755-9edd3e1f3841" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/8168452b-56d4-4f14-9d64-4519e3603ebc" />
 </p>
 <p>
 From there, Click create new resource group, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
