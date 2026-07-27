@@ -231,12 +231,19 @@ From the left-hand menu, select **Networking > Network Settings**, then click on
 <h2></h2>
 
 <p>
-
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/4fee9f07-6caf-419c-ae86-523b91e07bff" />
 </p>
 <p>
-Within the network interface settings, I navigated to Settings > IP Configurations > ipconfig1, where I changed the Private IP allocation from dynamic to Static, and saved the configuration. Afterward, I returned to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
+Within the network interface settings, I navigated to Settings > IP Configurations > ipconfig1, where I changed the Private IP allocation from dynamic to Static, and saved the configuration.
 
 Configuring the Domain Controller with a static private IP ensures consistent and reliable network communication. This is critical because client machines depend on the Domain Controller for DNS resolution and authentication services, which require a fixed IP address to function properly.
 </p>
 
 <h2></h2>
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/faccf857-b194-4bed-9da0-96c1ac70802c" />
+</p>
+<p>
+Afterward, return to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
+</p>
