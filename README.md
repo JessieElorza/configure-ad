@@ -50,7 +50,6 @@ Create a resource group to centrally organize and manage all Azure resources for
 <p>
 From there, Click create new resource group, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
 </p>
-
 <br />
 
 <p>
