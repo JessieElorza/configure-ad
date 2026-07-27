@@ -16,8 +16,8 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2026
-- Windows 11 (25H2)
+- Windows Server 2025 (x64 Gen2)
+- Windows 11 Virtual Machine(25H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -108,7 +108,6 @@ configure the username and password under the Admin Account section in dc-1's vi
   -Password: Cyberlab123!
 </p>
 <br>
-</p>
 <p>
 <img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
 </p>
