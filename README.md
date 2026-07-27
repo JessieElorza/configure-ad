@@ -139,7 +139,8 @@ In the **Networking** tab I selected the previously created VNet "Active-Directo
 <h2></h2>
 
 <p>
-<img width="400" height="400" alt="Screenshot"src="https://github.com/user-attachments/assets/684bd6d0-3bbe-48d9-a585-8af5d780be73" />
+<img width="400" height="400" alt="Screenshot"src="https://github.com/user-attachments/assets/684bd6d0-3bbe-48d9-a585-8af5d780be73" />  <img width="500" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/ed03e8cb-fffb-4cf3-a301-fd5e2c3eb5cf" />
+
 </p>
 <p>
 then "Create" and Deploy the Domain Controller(dc-1) Virtual Machine.
