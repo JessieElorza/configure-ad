@@ -45,8 +45,12 @@ Create a resource group to centrally organize and manage all Azure resources for
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" />
 </p>
 <p>
-<img width="400" height="400" alt="Screenshot"  src="https://github.com/user-attachments/assets/844dd8c7-6fb4-4f16-a31d-83397d7edef2" />
+<img width="400" height="400" alt="Screenshot"  src="https://github.com/user-attachments/assets/c87fa505-6cf5-413e-a755-9edd3e1f3841" />
 </p>
+<p>
+From there, Click create new resource group, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
+</p>
+
 <br />
 
 <p>
