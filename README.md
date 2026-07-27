@@ -32,11 +32,13 @@ This Demonstration outlines the Configuration of Azure Virtual Machines for prep
 Created a resource group to centrally organize and manage all Azure resources for the Active Directory lab. I began by signing in to the [Azure](https://portal.azure.com/) portal, searching for “Resource Groups,” and selecting the service. From there, I initiated the creation process, assigned the name “rg-active-directory-lab,” and completed the setup by selecting “Review + Create,” followed by “Create.”
 
 <p>
+<img width="1000" height="709" alt="Screenshot" src="https://github.com/user-attachments/assets/40d0e594-0739-4183-a468-f8a8fec29f83" />
+</p>
+<p>
 <img width="1000" height="709" alt="Screenshot" src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" />
 </p>
 <p>
 <img width="709" height="709" alt="Screenshot"  src="https://github.com/user-attachments/assets/844dd8c7-6fb4-4f16-a31d-83397d7edef2" />
-
 </p>
 <br />
 
