@@ -234,16 +234,32 @@ From the left-hand menu, select **Networking > Network Settings**, then click on
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/4fee9f07-6caf-419c-ae86-523b91e07bff" />
 </p>
 <p>
-Within the network interface settings, I navigated to Settings > IP Configurations > ipconfig1, where I changed the Private IP allocation from dynamic to Static, and saved the configuration.
+Within the network interface settings, navigate to Settings > IP Configurations > ipconfig1, change the Private IP allocation from dynamic to Static, and save the configuration.
 
 Configuring the Domain Controller with a static private IP ensures consistent and reliable network communication. This is critical because client machines depend on the Domain Controller for DNS resolution and authentication services, which require a fixed IP address to function properly.
 </p>
 
 <h2></h2>
 
+***DISABLE FIREWALL ON DC-1 VM (Temporary for Testing)***
+
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/0b32630e-a8e7-453f-8336-a83fad01717e" />
 </p>
 <p>
-Afterward, return to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
+Return to the DC-1 VM overview page to locate and copy the Domain Controller’s public IP address.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/b2319ff1-b926-4cbd-b75b-dac0954f8964" />
+</p>
+<p>
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/80b306b4-8c81-4465-ac74-fb4d13b0265f" />
+</p>
+<p>
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/beec6271-1c3f-476e-8831-04adf63d25bd" />
+<p>
+On my local computer, I used Remote Desktop to connect to DC-1 VM using its public IP address (20.94.42.226) and entered the username and password that were created when creating the Virtual Machine.  
 </p>
