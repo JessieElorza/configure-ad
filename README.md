@@ -93,9 +93,25 @@ Choose the **Active-Directory-Lab** resource group, name the VM "dc-1". Set the 
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e3b940ad-c753-42aa-9d22-5d7338c45df4" />
 </p>
 <p>
-Set the image to **Windows Server 2025 Datacenter: Azure Edition (x64 Gen2)**, and use the **Standard D2s_v3 (2 vCPUs, 8 GiB memory)** size.
+Set the image to **Windows Server 2025 Datacenter: Azure Edition (x64 Gen2)**, and use the **Standard D2s_v3 (2 vCPUs, 8 GiB memory)** size. Click next until
+</p>
+<br>
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e3b940ad-c753-42aa-9d22-5d7338c45df4" />
 </p>
 <p>
-configure the username and password under the Admin Account section.
+configure the username and password under the Admin Account section in dc-1's virtual machine creation tabs. In my instance I used-
+<p>
+  -Username: labuser
+</p>
+<p>
+  -Password: Cyberlab123!
+</p>
+</p>
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
+</p>
+<p>
+Ensure the licensing boxes and agreement boxes are checked and enabled. Click next 
 </p>
 <br />
