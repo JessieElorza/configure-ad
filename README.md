@@ -107,9 +107,10 @@ configure the username and password under the Admin Account section in dc-1's vi
 <p>
   -Password: Cyberlab123!
 </p>
+<br>
 </p>
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
+<img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/446f8190-98e3-4b23-b0c7-e50ae3fd82d2" />
 </p>
 <p>
 Ensure the licensing boxes and agreement boxes are checked and enabled. Click next 
