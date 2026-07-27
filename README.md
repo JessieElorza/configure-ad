@@ -56,7 +56,7 @@ From there, Click create new resource group, assign the name “Active-Directory
 ***CREATE VIRTUAL NETWORK.***
 
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/402ce1cc-bc73-41ec-853b-38147279764c" />
+<img width="850" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/402ce1cc-bc73-41ec-853b-38147279764c" />
 </p>
 <p>
 In the Azure Portal, I searched for “Virtual Networks,” selected the service, and clicked “+ Create.”
@@ -78,7 +78,7 @@ During the setup process, I chose the previously created resource group “Activ
 
 In the Azure portal, I initiated Virtual Machine creation by searching for “Virtual Machine” in the search bar and selecting "+ Create".
 <p>
-<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e587a7c9-e466-4c61-8ac6-edeef03aa63a" />
+<img width="850" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/e587a7c9-e466-4c61-8ac6-edeef03aa63a" />
 </p>
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/a339728c-afc5-45fe-93b0-8097ab3dd9e7" />
