@@ -7,6 +7,8 @@ This Demonstration outlines the Configuration of Azure Virtual Machines for prep
 
 <h2>Environments and Technologies Used</h2>
 
+<img src="https://skillicons.dev/icons?i=azure,windows,powershell" />
+
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
@@ -37,7 +39,7 @@ I began by signing in to the [Azure](https://portal.azure.com/) portal
 ---
 ***CREATE RESOURCE GROUP.***
 
-Create a resource group to centrally organize and manage all Azure resources for the Active Directory lab. Search for “Resource Groups,” and selecting the service. From there, Initiate the creation process, assign the name “active-directory-lab,” and complete the setup by selecting “Review + Create,” followed by “Create.”
+Create a resource group to centrally organize and manage all Azure resources for the Active Directory lab. Search for “Resource Groups,” and select the service. From there, Initiate the creation process, assign the name “Active-Directory-Lab” and complete the setup by selecting “Review + Create,” followed by “Create.”
 
 <p>
 <img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/ad9a5590-9851-4dee-9ab2-16773b365f71" />
