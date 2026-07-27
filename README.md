@@ -306,7 +306,7 @@ The firewall is temporarily disabled to allow connectivity testing between virtu
 ***Client-1 Virtual Machine Configuration***
 
 <p>
-<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/40810a94-3162-44fd-b4ea-2ae2857bf43a" />
+<img width="600" height="700" alt="Screenshot" src="https://github.com/user-attachments/assets/40810a94-3162-44fd-b4ea-2ae2857bf43a" />
 </p>
 <p>
 Navigate back to the **Virtual Machines** list, select the **dc-1** VM, and open **Network Settings** from the left-hand panel. From there, locate and copy the private IP address (10.0.0.4) 
