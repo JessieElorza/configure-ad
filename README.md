@@ -256,10 +256,76 @@ Return to the DC-1 VM overview page to locate and copy the Domain Controller’s
 <img width="500" height="600" alt="Screenshot" src="https://github.com/user-attachments/assets/b2319ff1-b926-4cbd-b75b-dac0954f8964" />
 </p>
 <p>
-<img width="300" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/80b306b4-8c81-4465-ac74-fb4d13b0265f" />
+<img width="300" height="250" alt="Screenshot" src="https://github.com/user-attachments/assets/80b306b4-8c81-4465-ac74-fb4d13b0265f" />
 </p>
 <p>
 <img width="300" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/beec6271-1c3f-476e-8831-04adf63d25bd" />
 <p>
-On my local computer, I used Remote Desktop to connect to DC-1 VM using its public IP address (20.94.42.226) and entered the username and password that were created when creating the Virtual Machine.  
+On my local computer, I used Remote Desktop to connect to DC-1 VM using its public IP address (20.94.42.226) and entered the username and password that were created when creating the Virtual Machine. Next, I selected **Yes** to proceed, which initiated the Domain Controller’s boot process.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="150" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/611a2fad-3817-4b17-af87-df2fb167cd85" />
+</p>
+<p>
+<img width="300" height="250" alt="Screenshot" src="https://github.com/user-attachments/assets/1b0f7b5d-ac33-4f49-8e96-2d4d73dad8f7" />
+</p>
+<p>
+Once the system was fully up and running, I opened **Windows Defender Firewall with Advanced Security** by right clicking the windows logo and selecting **Run** and typing **wf.msc**.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/93e211ed-9259-433f-a070-e7accdeb9961" />
+</p>
+<p>
+After gaining access to **Windows Defender Firewall with Advanced Security on Local Computer**. Select **Windows Defender Firewall Properties**.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/8b10f98b-571b-4f3f-94b6-68dcf9a07b87" />
+</p>
+<p>
+From there, disable the firewall by setting the Firewall State to **Off** for the Domain, Public, and Private profiles, then click **Apply** to save the changes. dc-1 has been successfully deployed, connected to the correct Virtual Network and subnet, and is now ready for further Active Directory configuration and role installation.
+
+**Reason:**
+
+The firewall is temporarily disabled to allow connectivity testing between virtual machines, permitting `ICMP` ping traffic. 
+</p>
+
+> [!NOTE]
+> In a production environment, firewall rules would be properly configured rather than disabled.
+
+<h2></h2>
+
+***Client-1 Virtual Machine Configuration***
+
+<p>
+<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/40810a94-3162-44fd-b4ea-2ae2857bf43a" />
+</p>
+<p>
+Navigate back to the **Virtual Machines** list, select the **dc-1** VM, and open **Network Settings** from the left-hand panel. From there, locate and copy the private IP address (10.0.0.4) 
+</p>
+
+<h2></h2>
+
+<p>
+<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/ae6af5a8-ee69-4419-9a76-a6aad2eb2251" />
+</p>
+<p>
+Return to the Virtual Machines list and select **client-1**. Navigate to **Network > Network Settings**, then select the **Network Interface/IP configuration**
+</p>
+
+<h2></h2>
+
+<p>
+<img width="400" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/cd0fede1-93e2-4d09-b2f8-de5fdd182398" />
+</p>
+<p>
+In the network interface settings, open **DNS servers**, switch the option to **Custom**, and enter the **dc-1 private IP address**. Click **Save** to apply the configuration.
 </p>
