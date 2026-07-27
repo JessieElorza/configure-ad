@@ -56,7 +56,7 @@ From there, Click create new resource group, assign the name “Active-Directory
 ***CREATE VIRTUAL NETWORK.***
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1000" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/402ce1cc-bc73-41ec-853b-38147279764c" />
 </p>
 <p>
 
