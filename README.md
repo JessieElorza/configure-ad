@@ -164,7 +164,7 @@ In the Azure portal, search for “Virtual Machine” in the search bar and sele
 <img width="400" height="400" alt="Screenshot" src="https://github.com/user-attachments/assets/bdb1933d-d24c-462d-87bd-1646f6557135" />
 </p>
 <p>
-Choose the Active-Directory-Lab resource group, named the VM client-1.
+Choose the Active-Directory-Lab resource group, name the Virtual Machine client-1.
 </p>
 
 <h2></h2>
