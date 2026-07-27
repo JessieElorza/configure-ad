@@ -13,6 +13,7 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
+- DNS
 
 <h2>Operating Systems Used </h2>
 
