@@ -386,11 +386,13 @@ Run the `ping` command to the Domain Controller’s private IP address (**10.0.0
 <img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/4459b01e-55b5-4ea2-884c-ffc84c049d96" />
 </p>
 <p>
-Finally, execute `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dc-1**.
+Finally, execute `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dc-1**. The key steps for configuring virtual machines, networking, DNS settings, and domain services to establish a functional Active Directory environment are now complete now we 
 
 **Successful replies confirm:**
   * Network connectivity is functioning properly
   * The firewall is not blocking ICMP traffic
   * Both **dc-1** and **client-1** VMs are on the same Virtual Network and subnet
+
+The key steps for configuring virtual machines, networking, DNS settings, and domain services to establish a functional Active Directory environment are now complete. Next is to install and deploy Active Directory.
 </p>
 <h2></h2>
