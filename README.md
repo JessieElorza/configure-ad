@@ -329,3 +329,12 @@ Return to the Virtual Machines list and select **client-1**. Navigate to **Netwo
 <p>
 In the network interface settings, open **DNS servers**, switch the option to **Custom**, and enter the **dc-1 private IP address**. Click **Save** to apply the configuration.
 </p>
+
+<h2></h2>
+
+<p>
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/cd0fede1-93e2-4d09-b2f8-de5fdd182398" />
+</p>
+<p>
+In the network interface settings, open **DNS servers**, switch the option to **Custom**, and enter the **dc-1 private IP address**. Click **Save** to apply the configuration.
+</p>
