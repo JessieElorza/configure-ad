@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Virtual Machines Deployed in the Cloud (Azure)</h1>
+<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 This Demonstration outlines the Configuration of Azure Virtual Machines in preparation for Active Directory configuration.<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -12,6 +12,7 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
+- Group Policy
 - PowerShell
 - DNS
 
@@ -22,8 +23,8 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- DC-1 = Domain Controller (DNS + AD DS)
-- Client-1 = Domain-joined machine
+- dc-1 = Domain Controller (DNS + AD DS)
+- client-1 = Domain-joined machine
 - Both connected via VNet (same subnet)
 
 <h2>Deployment and Configuration Steps</h2>
