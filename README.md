@@ -353,13 +353,40 @@ To apply the updated DNS settings, restart client-1 directly from the Azure Port
 ***Validate Connectivity and Configuration***
 
 <p>
-<img width="1268" height="489" alt="Screenshot 2026-07-24 081058" src="https://github.com/user-attachments/assets/b7158c25-2687-4ec3-a2ea-d16eac6b60e5" />
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/b7158c25-2687-4ec3-a2ea-d16eac6b60e5" />
 </p>
 <p>
-To validate connectivity to **dC-1**, I used **Remote Desktop** on my local computer to connect to the **Client-1** VM using its public IP address (52.186.171.6) using the credentials created during deployment. After successfully logging in, I opened **PowerShell** and ran `ping` to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity. Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dC-1**.
+To validate connectivity to **dc-1**, I used **Remote Desktop** on my local computer to connect to the **client-1** VM using its public IP address (172.200.210.160) using the username and password created during deployment.
+</p>
+
+<h2></h2>
+
+<p>
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/002842ec-9fc9-4dc0-aa20-b5cebeecb1ef" />
+</p>
+<p>
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/a8638097-1d5c-425b-b0e4-438671b6e942" />
+</p>
+<p>
+After successfully logging in, open **PowerShell** and run `ping` to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity. Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dC-1**.
 
 **Successful replies confirm:**
   * Network connectivity is functioning properly
   * The firewall is not blocking ICMP traffic
   * Both **DC-1** and **Client-1** VMs are on the same Virtual Network and subnet
 </p>
+
+<h2></h2>
+
+<p>
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/4459b01e-55b5-4ea2-884c-ffc84c049d96" />
+</p>
+<p>
+Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dc-1**.
+
+**Successful replies confirm:**
+  * Network connectivity is functioning properly
+  * The firewall is not blocking ICMP traffic
+  * Both **dc-1** and **client-1** VMs are on the same Virtual Network and subnet
+</p>
+<h2></h2>
