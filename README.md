@@ -393,6 +393,6 @@ Finally, execute `ipconfig /all` to verify that the **DNS server** is set to the
   * The firewall is not blocking ICMP traffic
   * Both **dc-1** and **client-1** VMs are on the same Virtual Network and subnet
 
-The key steps for configuring virtual machines, networking, DNS settings, and domain services to establish a functional Active Directory environment are now complete. Next is to install and deploy Active Directory.
+The key steps for configuring virtual machines, networking, DNS settings, and domain services to establish a functional Active Directory environment are now complete. Next is to install and ***deploy Active Directory.*** Head to "Step 2: Active Directory: Deploying Active Directory"
 </p>
 <h2></h2>
