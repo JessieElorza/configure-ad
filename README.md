@@ -338,3 +338,28 @@ In the network interface settings, open **DNS servers**, switch the option to **
 <p>
 In the network interface settings, open **DNS servers**, switch the option to **Custom**, and enter the **dc-1 private IP address**. Click **Save** to apply the configuration.
 </p>
+
+<h2></h2>
+
+<p>
+<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/1728250a-927f-4466-95cd-b0cfdd2d6337" />
+</p>
+<p>
+To apply the updated DNS settings, restart client-1 directly from the Azure Portal. After the reboot, the machine will successfully configure to use dc-1 for DNS resolution and is ready for domain connectivity.
+</p>
+
+<h2></h2>
+
+***Validate Connectivity and Configuration***
+
+<p>
+<img width="1268" height="489" alt="Screenshot 2026-07-24 081058" src="https://github.com/user-attachments/assets/b7158c25-2687-4ec3-a2ea-d16eac6b60e5" />
+</p>
+<p>
+To validate connectivity to **dC-1**, I used **Remote Desktop** on my local computer to connect to the **Client-1** VM using its public IP address (52.186.171.6) using the credentials created during deployment. After successfully logging in, I opened **PowerShell** and ran `ping` to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity. Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dC-1**.
+
+**Successful replies confirm:**
+  * Network connectivity is functioning properly
+  * The firewall is not blocking ICMP traffic
+  * Both **DC-1** and **Client-1** VMs are on the same Virtual Network and subnet
+</p>
