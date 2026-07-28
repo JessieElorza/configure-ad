@@ -12,7 +12,6 @@ This Demonstration outlines the Configuration of Azure Virtual Machines in prepa
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- Group Policy
 - PowerShell
 - DNS
 
