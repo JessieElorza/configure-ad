@@ -216,6 +216,8 @@ Both Virtual Machines are now Created and deployed! After creating the dc-1/clie
 
 <h2></h2>
 
+**4. Configure both Domain Controller/Client Virtual Machines**
+---
 ***Domain Controller VM IP Configuration***
 
 <p>
@@ -349,11 +351,12 @@ To apply the updated DNS settings, restart client-1 directly from the Azure Port
 </p>
 
 <h2></h2>
-
+**5. Validate both Domain Controller/Client Virtual Machines**
+---
 ***Validate Connectivity and Configuration***
 
 <p>
-<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/b7158c25-2687-4ec3-a2ea-d16eac6b60e5" />
+<img width="950" height="450" alt="Screenshot" src="https://github.com/user-attachments/assets/b7158c25-2687-4ec3-a2ea-d16eac6b60e5" />
 </p>
 <p>
 To validate connectivity to **dc-1**, I used **Remote Desktop** on my local computer to connect to the **client-1** VM using its public IP address (172.200.210.160) using the username and password created during deployment.
@@ -362,18 +365,19 @@ To validate connectivity to **dc-1**, I used **Remote Desktop** on my local comp
 <h2></h2>
 
 <p>
-<img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/002842ec-9fc9-4dc0-aa20-b5cebeecb1ef" />
+<img width="400" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/002842ec-9fc9-4dc0-aa20-b5cebeecb1ef" />
 </p>
+<p>
+After successfully logging in, open **Windows PowerShell**
+</p>
+
+<h2></h2
+
 <p>
 <img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/a8638097-1d5c-425b-b0e4-438671b6e942" />
 </p>
 <p>
-After successfully logging in, open **PowerShell** and run `ping` to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity. Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dC-1**.
-
-**Successful replies confirm:**
-  * Network connectivity is functioning properly
-  * The firewall is not blocking ICMP traffic
-  * Both **DC-1** and **Client-1** VMs are on the same Virtual Network and subnet
+Run the `ping` command to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity.
 </p>
 
 <h2></h2>
@@ -382,7 +386,7 @@ After successfully logging in, open **PowerShell** and run `ping` to the Domain 
 <img width="900" height="500" alt="Screenshot" src="https://github.com/user-attachments/assets/4459b01e-55b5-4ea2-884c-ffc84c049d96" />
 </p>
 <p>
-Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dc-1**.
+Finally, execute `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **dc-1**.
 
 **Successful replies confirm:**
   * Network connectivity is functioning properly
